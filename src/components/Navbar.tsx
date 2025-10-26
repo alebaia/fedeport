@@ -17,6 +17,9 @@ const Navbar = () => {
           <Link to="#about">
             <Button variant="ghost">Chi Sono</Button>
           </Link>
+          <Link to="#skills"> {/* Nuovo link per la sezione Competenze */}
+            <Button variant="ghost">Competenze</Button>
+          </Link>
           <Link to="#contact">
             <Button variant="ghost">Contatti</Button>
           </Link>
