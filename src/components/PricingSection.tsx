@@ -7,10 +7,10 @@ import { CheckCircle } from "lucide-react";
 const pricingPlans = [
   {
     title: "Pacchetto Base",
-    price: "Su Richiesta",
-    description: "Ideale per piccole esigenze e supporto occasionale.",
+    price: "100€", // Prezzo aggiornato
+    description: "Ideale per piccole esigenze e supporto occasionale, include 3 ore di prova.", // Descrizione aggiornata
     features: [
-      "5 ore di assistenza virtuale al mese",
+      "10 ore di assistenza virtuale al mese", // Caratteristica aggiornata
       "Gestione email e calendario",
       "Supporto amministrativo leggero",
       "Flessibilità oraria",
