@@ -32,18 +32,18 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="w-full py-20 md:py-32 bg-gray-50">
+    <section id="services" className="w-full py-20 md:py-32 bg-muted">
       <div className="container text-center">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">I Miei Servizi</h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-foreground">I Miei Servizi</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="flex flex-col items-center p-6 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardHeader className="pb-4">
                 <div className="mb-4">{service.icon}</div>
-                <CardTitle className="text-xl font-semibold text-gray-900">{service.title}</CardTitle>
+                <CardTitle className="text-xl font-semibold text-foreground">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600">{service.description}</CardDescription>
+                <CardDescription className="text-muted-foreground">{service.description}</CardDescription>
               </CardContent>
             </Card>
           ))}
