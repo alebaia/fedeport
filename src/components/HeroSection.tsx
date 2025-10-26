@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+// Rimuoviamo Link da react-router-dom
 
 const HeroSection = () => {
   return (
@@ -13,11 +13,11 @@ const HeroSection = () => {
         <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto opacity-0 animate-fade-in-up animation-delay-200">
           Supporto amministrativo, organizzativo e tecnico a distanza per liberi professionisti e piccole imprese.
         </p>
-        <Link to="#contact">
+        <a href="#contact"> {/* Modificato da Link a <a> */}
           <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 hover:text-blue-700 transition-all duration-300 shadow-lg opacity-0 animate-fade-in-up animation-delay-400">
             Contattami Ora <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-        </Link>
+        </a>
       </div>
       <style jsx>{`
         @keyframes fade-in-up {

@@ -1,34 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// Rimuoviamo Link da react-router-dom per i link interni alla pagina
 import { Button } from "@/components/ui/button";
-// import { cn } from "@/lib/utils"; // cn non è più necessario qui
 
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center justify-between">
-        <Link to="/" className="text-lg font-bold">
+        <a href="/" className="text-lg font-bold"> {/* Usiamo <a> per il link alla home */}
           Federica Pugni Virtual Assistance
-        </Link>
+        </a>
         <div className="flex items-center space-x-4">
-          <Link to="#services">
+          <a href="#services"> {/* Usiamo <a> per i link alle sezioni */}
             <Button variant="ghost">Servizi</Button>
-          </Link>
-          <Link to="#about">
+          </a>
+          <a href="#about">
             <Button variant="ghost">Chi Sono</Button>
-          </Link>
-          <Link to="#skills">
+          </a>
+          <a href="#skills">
             <Button variant="ghost">Competenze</Button>
-          </Link>
-          <Link to="#testimonials">
+          </a>
+          <a href="#testimonials">
             <Button variant="ghost">Testimonianze</Button>
-          </Link>
-          <Link to="#pricing"> {/* Nuovo link per la sezione Tariffe */}
+          </a>
+          <a href="#pricing">
             <Button variant="ghost">Tariffe</Button>
-          </Link>
-          <Link to="#contact">
+          </a>
+          <a href="#contact">
             <Button variant="ghost">Contatti</Button>
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

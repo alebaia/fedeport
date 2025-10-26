@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
-import { Link } from "react-router-dom";
+// Rimuoviamo Link da react-router-dom
 
 const pricingPlans = [
   {
@@ -73,11 +73,11 @@ const PricingSection = () => {
                 </ul>
               </CardContent>
               <CardFooter className="pt-6">
-                <Link to={plan.link} className="w-full">
+                <a href={plan.link} className="w-full"> {/* Modificato da Link a <a> */}
                   <Button className="w-full bg-blue-600 hover:bg-blue-700 text-lg">
                     {plan.buttonText}
                   </Button>
-                </Link>
+                </a>
               </CardFooter>
             </Card>
           ))}
