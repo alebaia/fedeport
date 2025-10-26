@@ -7,10 +7,10 @@ import { CheckCircle } from "lucide-react";
 const pricingPlans = [
   {
     title: "Pacchetto Base",
-    price: "100€", // Prezzo aggiornato
-    description: "Ideale per piccole esigenze e supporto occasionale, include 3 ore di prova.", // Descrizione aggiornata
+    price: "100€",
+    description: "Ideale per piccole esigenze e supporto occasionale, include 3 ore di prova.",
     features: [
-      "10 ore di assistenza virtuale al mese", // Caratteristica aggiornata
+      "10 ore di assistenza virtuale al mese",
       "Gestione email e calendario",
       "Supporto amministrativo leggero",
       "Flessibilità oraria",
@@ -20,10 +20,10 @@ const pricingPlans = [
   },
   {
     title: "Pacchetto Standard",
-    price: "Su Richiesta",
-    description: "Perfetto per professionisti e piccole imprese con necessità regolari.",
+    price: "159€", // Prezzo aggiornato
+    description: "Perfetto per professionisti e piccole imprese con necessità regolari, include 3 ore di prova.", // Descrizione aggiornata
     features: [
-      "15 ore di assistenza virtuale al mese",
+      "15 ore di assistenza virtuale al mese", // Caratteristica aggiornata
       "Gestione completa email e calendario",
       "Supporto amministrativo e organizzativo",
       "Reportistica mensile",
@@ -32,14 +32,15 @@ const pricingPlans = [
     link: "#contact",
   },
   {
-    title: "Progetto Personalizzato",
-    price: "Preventivo",
-    description: "Soluzioni su misura per progetti specifici o esigenze complesse.",
+    title: "Pacchetto Plus", // Titolo aggiornato
+    price: "259€", // Prezzo aggiornato
+    description: "Per chi cerca un supporto completo e continuativo, include 3 ore di prova.", // Descrizione aggiornata
     features: [
-      "Analisi dettagliata delle esigenze",
-      "Piano di lavoro personalizzato",
-      "Supporto dedicato per la durata del progetto",
-      "Consulenza strategica",
+      "25 ore di assistenza virtuale al mese", // Caratteristica aggiornata
+      "Gestione avanzata email, calendario e contatti",
+      "Supporto amministrativo e organizzativo completo",
+      "Gestione base social media (opzionale)",
+      "Reportistica dettagliata e consulenza",
     ],
     buttonText: "Richiedi un Preventivo",
     link: "#contact",
