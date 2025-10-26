@@ -7,7 +7,7 @@ import { CheckCircle } from "lucide-react";
 const pricingPlans = [
   {
     title: "Pacchetto Base",
-    price: "100€",
+    price: "109€", // Prezzo aggiornato
     description: "Ideale per piccole esigenze e supporto occasionale, include 3 ore di prova.",
     features: [
       "10 ore di assistenza virtuale al mese",
@@ -20,10 +20,10 @@ const pricingPlans = [
   },
   {
     title: "Pacchetto Standard",
-    price: "159€", // Prezzo aggiornato
-    description: "Perfetto per professionisti e piccole imprese con necessità regolari, include 3 ore di prova.", // Descrizione aggiornata
+    price: "159€",
+    description: "Perfetto per professionisti e piccole imprese con necessità regolari, include 3 ore di prova.",
     features: [
-      "15 ore di assistenza virtuale al mese", // Caratteristica aggiornata
+      "15 ore di assistenza virtuale al mese",
       "Gestione completa email e calendario",
       "Supporto amministrativo e organizzativo",
       "Reportistica mensile",
@@ -32,11 +32,11 @@ const pricingPlans = [
     link: "#contact",
   },
   {
-    title: "Pacchetto Plus", // Titolo aggiornato
-    price: "259€", // Prezzo aggiornato
-    description: "Per chi cerca un supporto completo e continuativo, include 3 ore di prova.", // Descrizione aggiornata
+    title: "Pacchetto Plus",
+    price: "259€",
+    description: "Per chi cerca un supporto completo e continuativo, include 3 ore di prova.",
     features: [
-      "25 ore di assistenza virtuale al mese", // Caratteristica aggiornata
+      "25 ore di assistenza virtuale al mese",
       "Gestione avanzata email, calendario e contatti",
       "Supporto amministrativo e organizzativo completo",
       "Gestione base social media (opzionale)",
