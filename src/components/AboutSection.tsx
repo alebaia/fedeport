@@ -9,7 +9,7 @@ const AboutSection = () => {
         <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">Chi Sono</h2>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <Avatar className="h-48 w-48 shadow-xl">
-            <AvatarImage src="/IMG_0072.JPG" alt="Federica Pugni" />
+            <AvatarImage src="/federica pugni.JPG" alt="Federica Pugni" />
             <AvatarFallback className="text-6xl font-bold bg-blue-100 text-blue-600">FP</AvatarFallback>
           </Avatar>
           <Card className="max-w-2xl p-8 text-left shadow-lg">
