@@ -22,18 +22,18 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="w-full py-20 md:py-32 bg-gray-100">
-      <div className="container text-center">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">Dicono di Me</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section id="testimonials" className="w-full py-12 sm:py-20 md:py-32 bg-gray-100">
+      <div className="container text-center px-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-8 sm:mb-12 text-gray-800">Dicono di Me</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-6 text-left shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between">
+            <Card key={index} className="p-4 sm:p-6 text-left shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between">
               <CardContent className="p-0">
-                <Quote className="h-8 w-8 text-blue-600 mb-4" />
-                <p className="text-lg text-gray-700 leading-relaxed mb-4 italic">"{testimonial.quote}"</p>
+                <Quote className="h-6 w-6 sm:h-8 sm:w-8 text-blue-600 mb-3 sm:mb-4" />
+                <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 italic">"{testimonial.quote}"</p>
                 <div className="mt-auto">
-                  <p className="font-semibold text-gray-900">{testimonial.author}</p>
-                  <p className="text-sm text-gray-500">{testimonial.title}</p>
+                  <p className="text-sm sm:text-base font-semibold text-gray-900">{testimonial.author}</p>
+                  <p className="text-xs sm:text-sm text-gray-500">{testimonial.title}</p>
                 </div>
               </CardContent>
             </Card>

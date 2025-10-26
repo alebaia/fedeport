@@ -27,18 +27,18 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="w-full py-20 md:py-32 bg-white">
-      <div className="container text-center">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">Le Mie Competenze e Qualità</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+    <section id="skills" className="w-full py-12 sm:py-20 md:py-32 bg-white">
+      <div className="container text-center px-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-8 sm:mb-12 text-gray-800">Le Mie Competenze e Qualità</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
           {skills.map((skill, index) => (
-            <Card key={index} className="flex flex-col items-center p-6 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <CardHeader className="pb-4">
-                <div className="mb-4">{skill.icon}</div>
-                <CardTitle className="text-xl font-semibold text-gray-900">{skill.title}</CardTitle>
+            <Card key={index} className="flex flex-col items-center p-4 sm:p-6 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardHeader className="pb-3 sm:pb-4">
+                <div className="mb-3 sm:mb-4">{skill.icon}</div>
+                <CardTitle className="text-lg sm:text-xl font-semibold text-gray-900">{skill.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600">{skill.description}</p>
+                <p className="text-sm sm:text-base text-gray-600">{skill.description}</p>
               </CardContent>
             </Card>
           ))}

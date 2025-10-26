@@ -32,18 +32,18 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="w-full py-20 md:py-32 bg-gray-50">
-      <div className="container text-center">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">I Miei Servizi</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section id="services" className="w-full py-12 sm:py-20 md:py-32 bg-gray-50">
+      <div className="container text-center px-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-8 sm:mb-12 text-gray-800">I Miei Servizi</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="flex flex-col items-center p-6 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <CardHeader className="pb-4">
-                <div className="mb-4">{service.icon}</div>
-                <CardTitle className="text-xl font-semibold text-gray-900">{service.title}</CardTitle>
+            <Card key={index} className="flex flex-col items-center p-4 sm:p-6 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardHeader className="pb-3 sm:pb-4">
+                <div className="mb-3 sm:mb-4">{service.icon}</div>
+                <CardTitle className="text-lg sm:text-xl font-semibold text-gray-900">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600">{service.description}</CardDescription>
+                <CardDescription className="text-sm sm:text-base text-gray-600">{service.description}</CardDescription>
               </CardContent>
             </Card>
           ))}
