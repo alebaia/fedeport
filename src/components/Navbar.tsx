@@ -20,8 +20,11 @@ const Navbar = () => {
           <Link to="#skills">
             <Button variant="ghost">Competenze</Button>
           </Link>
-          <Link to="#testimonials"> {/* Nuovo link per la sezione Testimonianze */}
+          <Link to="#testimonials">
             <Button variant="ghost">Testimonianze</Button>
+          </Link>
+          <Link to="#pricing"> {/* Nuovo link per la sezione Tariffe */}
+            <Button variant="ghost">Tariffe</Button>
           </Link>
           <Link to="#contact">
             <Button variant="ghost">Contatti</Button>
