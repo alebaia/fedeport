@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 
 const AboutSection = () => {
@@ -10,7 +10,7 @@ const AboutSection = () => {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <Avatar className="h-48 w-48 shadow-xl">
             <AvatarImage src="/IMG_1085.jpeg" alt="Federica Pugni" />
-            <AvatarFallback className="text-6xl font-bold bg-blue-100 text-blue-600">FP</AvatarFallback>
+            {/* AvatarFallback rimosso */}
           </Avatar>
           <Card className="max-w-2xl p-8 text-left shadow-lg">
             <CardContent className="p-0">
