@@ -8,9 +8,9 @@ import { Mail, Phone } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="w-full py-20 md:py-32 bg-muted">
+    <section id="contact" className="w-full py-20 md:py-32 bg-gray-100">
       <div className="container text-center">
-        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-foreground">Contattami</h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">Contattami</h2>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <Card className="w-full max-w-md p-8 shadow-lg">
             <CardHeader className="text-center pb-6">
@@ -40,15 +40,15 @@ const ContactSection = () => {
             <div className="flex items-center space-x-4">
               <Mail className="h-8 w-8 text-blue-600" />
               <div>
-                <h3 className="text-xl font-semibold text-foreground">Email</h3>
-                <p className="text-lg text-muted-foreground">pugnifederica@gmail.com</p>
+                <h3 className="text-xl font-semibold text-gray-800">Email</h3>
+                <p className="text-lg text-gray-600">pugnifederica@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Phone className="h-8 w-8 text-blue-600" />
               <div>
-                <h3 className="text-xl font-semibold text-foreground">Telefono</h3>
-                <p className="text-lg text-muted-foreground">+39 392-6730517</p>
+                <h3 className="text-xl font-semibold text-gray-800">Telefono</h3>
+                <p className="text-lg text-gray-600">+39 392-6730517</p>
               </div>
             </div>
           </div>
