@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+// import { cn } from "@/lib/utils"; // cn non è più necessario qui
 
 const Navbar = () => {
   return (
@@ -11,14 +11,14 @@ const Navbar = () => {
           Il Tuo Nome VA
         </Link>
         <div className="flex items-center space-x-4">
-          <Link to="#services" className={cn(Button({ variant: "ghost" }))}>
-            Servizi
+          <Link to="#services">
+            <Button variant="ghost">Servizi</Button>
           </Link>
-          <Link to="#about" className={cn(Button({ variant: "ghost" }))}>
-            Chi Sono
+          <Link to="#about">
+            <Button variant="ghost">Chi Sono</Button>
           </Link>
-          <Link to="#contact" className={cn(Button({ variant: "ghost" }))}>
-            Contatti
+          <Link to="#contact">
+            <Button variant="ghost">Contatti</Button>
           </Link>
         </div>
       </div>
