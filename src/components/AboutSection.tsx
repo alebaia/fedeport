@@ -10,7 +10,7 @@ const AboutSection = () => {
           <img 
             src="/IMG_1085.jpeg" 
             alt="Federica Pugni" 
-            className="h-48 w-48 rounded-full shadow-xl object-cover border-4 border-red-500 bg-gray-200" // Aggiunto border-4 border-red-500 bg-gray-200 per diagnostica
+            className="h-48 w-48 rounded-full shadow-xl object-cover" 
           />
           <Card className="max-w-2xl p-8 text-left shadow-lg">
             <CardContent className="p-0">
