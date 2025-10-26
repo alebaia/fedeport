@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center justify-between">
         <Link to="/" className="text-lg font-bold">
-          Federica Pugni VA
+          Federica Pugni Virtual Assistance
         </Link>
         <div className="flex items-center space-x-4">
           <Link to="#services">
