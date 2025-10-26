@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, AvatarImage } from "@/components/ui/avatar";
+// Rimosso l'import di Avatar e AvatarImage per usare un tag <img> diretto
 import { Card, CardContent } from "@/components/ui/card";
 
 const AboutSection = () => {
@@ -8,10 +8,11 @@ const AboutSection = () => {
       <div className="container text-center">
         <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">Chi Sono</h2>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
-          <Avatar className="h-48 w-48 shadow-xl">
-            <AvatarImage src="/IMG_1085.jpeg" alt="Federica Pugni" />
-            {/* AvatarFallback rimosso */}
-          </Avatar>
+          <img 
+            src="/IMG_1085.jpeg" 
+            alt="Federica Pugni" 
+            className="h-48 w-48 rounded-full shadow-xl object-cover" // Aggiunto object-cover per assicurare che l'immagine riempia il contenitore
+          />
           <Card className="max-w-2xl p-8 text-left shadow-lg">
             <CardContent className="p-0">
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
