@@ -1,5 +1,4 @@
 import React from "react";
-// Rimosso l'import di Avatar e AvatarImage per usare un tag <img> diretto
 import { Card, CardContent } from "@/components/ui/card";
 
 const AboutSection = () => {
@@ -11,7 +10,7 @@ const AboutSection = () => {
           <img 
             src="/IMG_1085.jpeg" 
             alt="Federica Pugni" 
-            className="h-48 w-48 rounded-full shadow-xl object-cover" // Aggiunto object-cover per assicurare che l'immagine riempia il contenitore
+            className="h-48 w-48 rounded-full shadow-xl object-cover border-4 border-red-500 bg-gray-200" // Aggiunto border-4 border-red-500 bg-gray-200 per diagnostica
           />
           <Card className="max-w-2xl p-8 text-left shadow-lg">
             <CardContent className="p-0">
