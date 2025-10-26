@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="w-full py-8 bg-gray-800 text-white text-center">
       <div className="container">
         <p className="text-sm mb-2">
-          &copy; {new Date().getFullYear()} Il Tuo Nome. Tutti i diritti riservati.
+          &copy; {new Date().getFullYear()} Federica Pugni. Tutti i diritti riservati.
         </p>
         <MadeWithDyad />
       </div>

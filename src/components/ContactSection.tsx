@@ -41,14 +41,14 @@ const ContactSection = () => {
               <Mail className="h-8 w-8 text-blue-600" />
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">Email</h3>
-                <p className="text-lg text-gray-600">tua.email@example.com</p>
+                <p className="text-lg text-gray-600">pugnifederica@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Phone className="h-8 w-8 text-blue-600" />
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">Telefono</h3>
-                <p className="text-lg text-gray-600">+39 123 456 7890</p>
+                <p className="text-lg text-gray-600">+39 392-6730517</p>
               </div>
             </div>
           </div>
