@@ -8,7 +8,7 @@ const AboutSection = () => {
         <h2 className="text-3xl md:text-5xl font-bold mb-12 text-gray-800">Chi Sono</h2>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <img 
-            src="/federica_pugni.jpeg" 
+            src="/image.jpeg" 
             alt="Federica Pugni" 
             className="h-48 w-48 rounded-full shadow-xl object-cover" 
           />
